@@ -21,9 +21,12 @@ export const ui: Record<Language, Translation> = {
     toc: 'Inhaltsverzeichnis',
   },
   'en': {
-    title: 'Retypeset',
-    subtitle: 'Revive the beauty of typography',
-    description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
+    // site title
+    title: 'Eijiurus',
+    // site subtitle
+    subtitle: 'Remember that there exists a space where imagination and poetry dewll.',
+    // site description
+    description: 'A lone island.',
     posts: 'Posts',
     tags: 'Tags',
     about: 'About',
@@ -93,9 +96,9 @@ export const ui: Record<Language, Translation> = {
     toc: 'Оглавление',
   },
   'zh': {
-    title: '重新编排',
-    subtitle: '再现版式之美',
-    description: 'Retypeset是一款基于Astro框架的静态博客主题，中文名为重新编排。本主题以活版印字为设计灵感，通过建立全新的视觉规范，对所有页面进行重新编排，打造纸质书页般的阅读体验，再现版式之美。所见皆为细节，方寸尽显优雅。',
+    title: 'Eijiurus',
+    subtitle: '须知有一个地方存在想象与诗',
+    description: '孤岛。',
     posts: '文章',
     tags: '标签',
     about: '关于',
