@@ -14,10 +14,10 @@ export const themeConfig: ThemeConfig = {
     // author name
     author: 'JerrySu',
     // site url
-    url: 'https://Eijiurus.github.io',
+    url: 'https://blog.eijiurus.com',
     // base path
     // root directory for all pages and assets
-    base: '/blog', // e.g., '/blog', '/docs'
+    base: '/', // e.g., '/blog', '/docs'
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icons/favicon.svg', // or https://example.com/favicon.svg
