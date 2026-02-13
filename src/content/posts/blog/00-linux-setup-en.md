@@ -1,9 +1,9 @@
 ---
-title: Setting Up Linux from Scratch
+title: '[Log] My Linux Post-Installation Setup.'
 published: 2026-01-01
 draft: false
 lang: en
-description: Transform a fresh Linux installation into a powerful development workstation. From shell customization (Zsh/Bash) to essential dev tools, discover how to configure your environment for maximum productivity and efficiency.
+description: Transform a fresh Linux installation into a powerful development workstation. From shell customization (Zsh/Bash) to essential dev tools, discover how to configure the environment for maximum productivity and efficiency.
 abbrlink: linux-setup
 ---
 

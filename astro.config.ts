@@ -19,15 +19,15 @@ import { remarkContainerDirectives } from './src/plugins/remark-container-direct
 import { remarkLeafDirectives } from './src/plugins/remark-leaf-directives.mjs'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 
-const { url: site } = themeConfig.site
+const { url: _site } = themeConfig.site
 const { imageHostURL } = themeConfig.preload ?? {}
 const imageConfig = imageHostURL
   ? { image: { domains: [imageHostURL], remotePatterns: [{ protocol: 'https' }] } }
   : {}
 
 export default defineConfig({
-  site,
-  base,
+  site: 'https://Eijiurus.github.io',
+  base: '/blog',
   trailingSlash: 'always', // Not recommended to change
   prefetch: {
     prefetchAll: true,
