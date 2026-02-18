@@ -120,7 +120,8 @@ html.dark .heti pre span {
   --at-apply: 'my-6 border-l-4 border-secondary/25 border-solid px-4 py-0.5 c-secondary/80';
 }
 .heti blockquote[class*="admonition-"] {
-  --at-apply: 'py-1.5 c-secondary';
+  --at-apply: 'border-none rounded-2 overflow-hidden c-secondary';
+  padding: 0 0.75rem 0.5rem;
 }
 .heti blockquote blockquote {
   --at-apply: 'py-0';
